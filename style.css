@@ -1,0 +1,40 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(166, 208, 221);    
+    color: rgb(255, 249, 222);
+    font-size: 20px;
+}
+.new-task-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+}
+input{
+    background-color: rgb(255, 211, 176);
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+}
+button{
+    background-color: rgb(255, 105, 105);
+    border: none;
+    height: 30px;
+    gap: 0.5rem;
+    border-radius: 10px;
+    color: rgb(255, 249, 222);
+}
+.del-btn{
+    background-color: rgb(255, 105, 105);
+}
+.list{
+    list-style: none;
+}
